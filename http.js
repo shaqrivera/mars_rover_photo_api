@@ -24,4 +24,4 @@ app.get('/mars-rover-photo', async (req, res) => {
 });
 
 // start the server on port 3000
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
